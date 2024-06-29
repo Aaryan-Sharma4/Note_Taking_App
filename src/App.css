@@ -1,0 +1,57 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-title {
+  margin: 0;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+  padding: 20px;
+}
+
+.NoteForm {
+  width: 100%;
+  max-width: 600px; /* Adjust max-width as needed */
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.NoteList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust to 4 columns */
+  gap: 20px; /* Adjust gap between notes */
+}
+
+.App-footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}

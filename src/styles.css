@@ -1,0 +1,36 @@
+/* src/styles.css */
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note-form {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .note {
+      max-width: 100%;
+  }
+
+  .app {
+      padding: 10px;
+  }
+}
